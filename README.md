@@ -9,7 +9,7 @@ The module displays the last 100 articles that have been edited
 
 Odnośnik: twoja-strona.pl/?do=lastedit
 
-5. W głónym pliku .htaccess na serwerze znajdź linijkę: 
+5. W głównym pliku .htaccess na serwerze znajdź linijkę: 
 
 RewriteEngine On
 
