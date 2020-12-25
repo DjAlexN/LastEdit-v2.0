@@ -4,7 +4,7 @@ The module displays the last 100 articles that have been edited
 # Instrukcja po Polsku
 1. W folderze "templates" zmień nazwę folderu "{THEME}" na nazwę swojego szablonu jai używasz na stronie
 2. Wgraj foldery: "engine" oraz "templates" na swój serwer.
-3. W Panelu Administratora w sekcji Zarządzania Wtyczami wgraj plik lastedit.xml
+3. W Panelu Administratora w sekcji Zarządzania Wtyczami wgraj plik lasteditnews.xml
 4. W swoim szablonie w wybranym miejscu (np w pliku main.tpl) dodaj odnośnik do podstrony która wyświetla ostatnio edytowane artykuły.
 
 Odnośnik: twoja-strona.pl/?do=lastedit
@@ -22,7 +22,7 @@ RewriteRule ^lastnews(/?)+$ index.php?do=lastedit [L]
 # English manual
 1. In the "templates" folder change the name of the "{THEME}" folder to the name of your template you use on the website
 2. Upload the folders: "engine" and "templates" to your server.
-3. In the Administrator Panel, in the Plugins Management section, upload the lastedit.xml file
+3. In the Administrator Panel, in the Plugins Management section, upload the lasteditnews.xml file
 4. In your template, in the selected place (eg in the main.tpl file) add a link to the subpage that displays recently edited articles.
 
 Reference: your-site.com/?do=lastedit
