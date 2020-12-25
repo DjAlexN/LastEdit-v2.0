@@ -1,0 +1,45 @@
+<?php
+/***********************************************************
+* Translate: 	 NOVAK Studio
+* Version: 		 1.0
+* Version DLE: 	 14.0 +
+* Version PHP:	 7.0 +
+* Dev team: 	 NOVAK Studio
+* Name Script:	 Moduł LastEdit by NOVAK Studio
+***********************************************************/
+
+$langs = array (
+
+// Informacje
+'auth'				=> "Autor:",
+'auth_name'			=> "NOVAK Studio",
+'version'			=> "Wersja Modułu",
+'licence_top'		=> "Licencja",
+'licence_top_stat'	=> "<span style='color:green'><b>Aktywowana</b></span>",
+'feedback'			=> "Kontakt",
+'feedback_1'		=> "FB:www.facebook.com/djalexn.graphic.group <br> E-Mail: djalexn.graphic@gmail.com <br> Discord: https://discord.gg/taZrjzwKKc",
+'info'				=> "Informacje",
+'inf'				=> "Moduł wyświetla 100 ostatnio moderowanych artykułów w osobnej stronie statycznej o własnym adresie",
+'link'      		=> "Linki do Ostatnio<br />Moderowanych Artykułów",
+'linki'      		=> "http://twoja-strona.pl/?do=lastedit",
+'config'			=> "Konfiguracja",
+
+// Konfiguracja
+'top_num'			=> "Liczba artykułów w TOP'ie",
+'top_num_def'		=> "Wartość domyślna: 100",
+'top_tem_view'		=> "Nazwa szablonu dla Top ostatnio moderowanych",
+'top_tem_view1'		=> "Wartość domyślna: (Ostatnio Moderowane)",
+'top_tem_nr'		=> "Znak numeru artykułu",
+'top_tem_nr1'		=> "Wartość domyślna: &nbsp;&nbsp;Nr&nbsp;&nbsp;",
+'top_kol_art'		=> "Nazwa szablonu dla kolumny nazwy artykułu",
+'top_kol_art1'		=> "Wartość domyślna: Tytuł artykułu",
+
+// Licence
+'licence_rules'		=> "<b>Umowa Licencyjna</b>",
+'licence_rules1'	=> "<br /><b>1.</b> Moduł <b>LastEdit</b> jest Darmowy dlatego użytkownik może w pełni korzystać z modułu za darmo!<br /><b>2.</b> Zabrania się rozpowszechniania modułu bez zgody Autora.<br /><b>3.</b> Zabrania się próby deszyfracji plików modułu i edycję ich bez zgody Autora.<br /><b>4.</b> W przypadku wykrycia złamania w/w zasad użytkownik traci pełne wsparcie z strony Autora dla tego modułu<br /><br /><span style='float:right;text-align:right;'><b>Z poważaniem</b><br /><b>NOVAK Studio</b><br />https://novak-studio.pl <br />Support, Grafika, Fotografia, Tłumaczenia, Creator WWW</span>",
+// Licence End
+'updates' 			=> "Sprawdź dostępność aktualizacji",
+
+
+);
+?>
