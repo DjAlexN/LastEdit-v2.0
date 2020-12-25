@@ -20,7 +20,9 @@ RewriteRule ^lastnews(/?)+$ index.php?do=lastedit [L]
 2. Upload the folders: "engine" and "templates" to your server.
 3. In the Administrator Panel, in the Plugins Management section, upload the lastedit.xml file
 4. In your template, in the selected place (eg in the main.tpl file) add a link to the subpage that displays recently edited articles.
+
 Reference: your-site.com/?do=lastedit
+
 5. In the main .htaccess file on the server, look for the line:
 
 RewriteEngine On
