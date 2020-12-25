@@ -6,11 +6,15 @@ The module displays the last 100 articles that have been edited
 2. Wgraj foldery: "engine" oraz "templates" na swój serwer.
 3. W Panelu Administratora w sekcji Zarządzania Wtyczami wgraj plik lastedit.xml
 4. W swoim szablonie w wybranym miejscu (np w pliku main.tpl) dodaj odnośnik do podstrony która wyświetla ostatnio edytowane artykuły.
+
 Odnośnik: twoja-strona.pl/?do=lastedit
+
 5. W głónym pliku .htaccess na serwerze znajdź linijkę: 
+
 RewriteEngine On
 
 Poniżej dodaj:
+
 RewriteRule ^lastnews(/?)+$ index.php?do=lastedit [L]
 
 6. Gotowe :) Teraz możesz cieszyć się modułem
