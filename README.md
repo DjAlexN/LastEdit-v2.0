@@ -22,8 +22,11 @@ RewriteRule ^lastnews(/?)+$ index.php?do=lastedit [L]
 4. In your template, in the selected place (eg in the main.tpl file) add a link to the subpage that displays recently edited articles.
 Reference: your-site.com/?do=lastedit
 5. In the main .htaccess file on the server, look for the line:
+
 RewriteEngine On
+
 Add below:
-RewriteRule ^ lastnews (/?) + $ Index.php? Do = lastedit [L]
+
+RewriteRule ^lastnews(/?)+$ index.php?do=lastedit [L]
 
 6. Done :) Now you can enjoy the module
