@@ -23,7 +23,6 @@ RewriteRule ^lastnews(/?)+$ index.php?do=lastedit [L]
 Reference: your-site.com/?do=lastedit
 5. In the main .htaccess file on the server, look for the line:
 RewriteEngine On
-
 Add below:
 RewriteRule ^ lastnews (/?) + $ Index.php? Do = lastedit [L]
 
